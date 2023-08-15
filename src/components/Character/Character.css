@@ -1,0 +1,16 @@
+.current__character{
+	font-size: 19px;
+	line-height: 19px;
+}
+
+.correct-character {
+	color: #42db18;
+}
+
+.incorrect-character {
+	color: #fF6007;
+}
+
+.notAttempted-character {
+	color: #FEFEFE;
+}

@@ -1,0 +1,65 @@
+.input__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue; 
+  width: 100%;
+  max-width: 800px;
+}
+
+.timer__container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.timer__text{
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.scoreboard {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  width: 100%; /*@media*/
+  border-top: 1px solid #fefefe;
+}
+.wordsUpdate,
+.charactersUpdate,
+.speedUpdate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  padding: 0 9px;
+  box-shadow: 0 1px 2px rgba(41, 38, 38, 0.5), 0 3px 4px rgba(54, 53, 53, 0.95);
+  transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 0.1);
+}
+
+.wordsUpdate:hover,
+.charactersUpdate:hover,
+.speedUpdate:hover {
+  box-shadow: 0 1px 2px rgba(41, 38, 38, 0.5),
+    2px 8px 15px rgba(114, 113, 113, 0.95);
+}
+
+.words-count,
+.characters-count,
+.speed-value {
+  font-size: 1.8rem;
+  margin-block-start: -1rem;
+  margin-block-end: 0;
+}
+
+/* .practice-page-title {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.practice-page{
+  width: 100%;
+}

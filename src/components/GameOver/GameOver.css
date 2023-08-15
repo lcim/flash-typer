@@ -1,0 +1,97 @@
+.game__over-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+    background-color: #212A3E;
+    border-radius: 1rem;
+    padding: 0 1rem; border: 2px solid #FA7310
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.records{
+    color: #FA4310;
+    background-color: #FAFAFA;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.2rem;
+}
+
+.header, .digitals{
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
+    color: #FA7310;
+}
+
+.scores{
+    /* color: #0d0c01; */
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+    font-size: 1.0rem;
+}
+
+.btn{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    gap: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.btn-retry{
+    background-color:rgba(0, 255, 255, 1);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+.btn-share{
+    background-color: rgba(66,103,178, 0.9);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+.btn-tweet{
+    background-color: rgba(29, 161, 242, 0.9);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+.btn-tweet:hover, .btn-tweet:hover, .btn-tweet:hover{
+    background-color:  rgba(29, 161, 242, 0.6);
+}
+
+.btn-share:hover{
+    background-color:  rgba(66,103,178, 0.6);
+}
+
+.btn-retry:hover{
+    background-color:  rgba(0, 255, 255, 0.6);
+}
+
+@media screen and (min-width: 600px) {
+    .game__over-container{
+        width: 500px;
+    }
+    .scores, .btn{
+        width: 450px;
+        display: flex;
+        gap: 1rem;
+        justify-content: center; 
+        align-items: center;
+    }
+    .scores{
+        flex-direction: column;
+        font-size: 1.2rem;letter-spacing: 0.1rem;
+    }
+    
+}

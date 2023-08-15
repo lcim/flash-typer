@@ -1,0 +1,22 @@
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  background-color: rgba(15, 11, 11, 0.945);
+  margin: 0;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  /* max-width: 300px; */
+}
+
+/* @media screen and (min-width: 900px) {
+  .app {
+    width: 1200px;
+  }
+} */
