@@ -1,5 +1,5 @@
 .current__character{
-	font-size: 19px;
+	font-size: 14px;
 	line-height: 19px;
 }
 
@@ -13,4 +13,10 @@
 
 .notAttempted-character {
 	color: #FEFEFE;
+}
+
+@media screen and (min-width: 600px) {
+	current__character{
+		font-size: 21px;
+	}
 }
