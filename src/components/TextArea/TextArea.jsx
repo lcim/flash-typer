@@ -19,7 +19,7 @@ const TextArea = ({
       </div>
       <div className="dynamic-text">
         <textarea
-          placeholder="Type the paragraph text shown on the left here. You can only go back using the backspace key."
+          placeholder="Type the paragraph text shown on the left (above if using mobile device) here. You can only go back using the backspace key. Correctly typed characters are highlighted in green while mistyped ones are in red"
           onChange={(e) => handleInput(e.target.value)}
         />
       </div>

@@ -17,6 +17,7 @@
 .timer__text{
   font-size: 1rem;
   letter-spacing: 0.1rem;
+  padding: 0 0.2rem;
 }
 
 .scoreboard {
