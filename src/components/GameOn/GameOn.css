@@ -5,6 +5,7 @@
   color: aliceblue; 
   width: 100%;
   max-width: 800px;
+  padding: 0 0.5rem;
 }
 
 .timer__container {
