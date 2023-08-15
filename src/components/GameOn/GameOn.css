@@ -13,6 +13,8 @@
   justify-content: center; 
   align-items: center;
   gap: 0.5rem;
+  margin-block-start: 0.33em;
+  margin-block-end: 0.33em;
 }
 
 .timer__text{
@@ -64,4 +66,11 @@
 
 .practice-page{
   width: 100%;
+}
+
+@media screen and (min-width: 70px) {
+  .timer__container{
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+  }
 }
