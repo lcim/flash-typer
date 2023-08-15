@@ -9,7 +9,6 @@
 
 .fixed-text, .dynamic-text{
     background-color: rgba(72, 45, 45, 0.9);
-    max-height: 180px;
     overflow-y: scroll;
     width: 100%;
     font-size: 1.1rem;
@@ -17,6 +16,10 @@
     transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 0.1);
     margin-bottom: 0.5rem;
     padding: 0.5rem 0.8rem;
+}
+
+.fixed-text{    
+    max-height: 180px;
 }
 
 .fixed-text:hover, .dynamic-text:hover{
