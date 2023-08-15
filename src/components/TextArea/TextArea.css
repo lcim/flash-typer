@@ -9,7 +9,6 @@
 
 .fixed-text, .dynamic-text{
     background-color: rgba(72, 45, 45, 0.9);
-    min-height: 300px;
     overflow-y: scroll;
     width: 100%;
     font-size: 1.1rem;
@@ -21,6 +20,9 @@
 
 .fixed-text{    
     max-height: 180px;
+}
+.dynamic-text{    
+    min-height: 300px;
 }
 
 .fixed-text:hover, .dynamic-text:hover{
