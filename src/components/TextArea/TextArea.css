@@ -9,7 +9,7 @@
 
 .fixed-text, .dynamic-text{
     background-color: rgba(72, 45, 45, 0.9);
-    max-height: 300px;
+    min-height: 300px;
     overflow-y: scroll;
     width: 100%;
     font-size: 1.1rem;
