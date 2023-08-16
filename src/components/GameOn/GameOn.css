@@ -2,26 +2,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: aliceblue; 
-  width: 100%;
+  color: aliceblue;
+  width: 250px;
   max-width: 800px;
-  padding: 0 2.5rem;
+  /* padding: 0 2.5rem; */
 }
 
 .timer__container {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  margin-block-start: 0.33rem;
-  margin-block-end: 0.33rem;
-  padding: 0 1rem;
+  margin: 0;
+  /* margin-block-start: 0.33rem; */
+  /* margin-block-end: 0.33rem; */
+  /* padding: 0 1rem; */
 }
 
-.timer__text{
+.timer__text {
   font-size: 1rem;
   letter-spacing: 0.1rem;
-  padding: 0 1.2rem;
+  display: inline;
+  overflow-x: hidden;
+  /* padding: 0 1.2rem; */
 }
 
 .scoreboard {
@@ -65,14 +68,26 @@
     flex-wrap: wrap;
 } */
 
-.practice-page{
+.practice-page {
   width: 100%;
 }
 
+@media screen and (min-width: 400px) {
+  .input__container {
+    width: auto;
+    padding: 2.5rem;
+  }
+}
+
 @media screen and (min-width: 700px) {
-  .timer__container{
+  .input__container {
+    width: auto;
+  }
+  .timer__container {
     margin-block-start: 1.33rem;
     margin-block-end: 1.33rem;
     padding: unset;
   }
+
+  
 }

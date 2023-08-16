@@ -31,7 +31,7 @@ const GameOn = ({
       </div>
       <div className="practice-page">
         <h4 className="timer__container">
-          <p className="timer__text">Time Remaining:</p> <h1 className="timer"> 00:{timeLeft < 10 ? `0${timeLeft}` : timeLeft}</h1> <p className="timer__text">seconds</p></h4>
+          <p className="timer__text">Remaining:</p> <h1 className="timer"> 00:{timeLeft < 10 ? `0${timeLeft}` : timeLeft}</h1> <p className="timer__text">sec</p></h4>
         <TextArea
           timerStarted={timerStarted}
           characters={characters}
